@@ -21,7 +21,7 @@ public class Principal extends Application{
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Ventana.fxml"));
         Scene scene = new Scene(root);
-        stage.setTitle("Bienvenido");
+        stage.setTitle("Bienvenido a mi ventana");
         stage.setScene(scene);
         stage.show();
     }
